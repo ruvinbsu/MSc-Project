@@ -1,0 +1,5082 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ruvin/ontologies/2014/1/final_ontology.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/ruvin/ontologies/2014/1/final_ontology.owl">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#38"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#39"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#40"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#41"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#42"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#44"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A-Number_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ACCOUNTING_CASE_CALL_SUPERVISION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ALI_RP_OVERLOAD_PROTECTION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ALLOCATION_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ANALYSIS_DATA_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AP-_AP_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#APZ_Equipment_CP/RP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AP_Alarm_Display"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AP_File_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AP_System_and_Processes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATM_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AUDIT_LOG_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Access_Barring_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Access_Network_V5_Interface_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Access_Security_Authority_and_Command_Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accounting_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accounting_Class_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accounting_Data_Output"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjunct_Processor_Audit_Log_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjunct_Processor_Fault_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarm_Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarm_Characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarm_Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarm_Interface_Unit_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarm_Reporting_Criteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alarm_System_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Announcements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Announcer_Route_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application_Information"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application_Protocol_Carrier_Link_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attendance_Status_Modification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audit_Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B-Number_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BICC_Signalling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BSC/RNC_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Backup_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base_Station_Controller_Administration_GSM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base_Station_Controller_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Base_Station_Controller_Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Accounting_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Buffer_Pool_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Disturbance_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Event_Reporting_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Global_Title_Routing_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_MTP_Accounting_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_MTP_Backwards_Compatibility_Reporting_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_MTP_Policing_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_MTP_Routing_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Multiple_Point_Code_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Remote_Management_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_SCCP_Congestion_Control_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_SCCP_Network_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_SCCP_Policing_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_SCCP_Remote_Subsystem_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_SCCP_Rerouting_Definition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_SEP_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Signalling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Signalling_Data_Link_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Signalling_Network_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Signalling_Network_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Signalling_Performance_Measurement_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Signalling_Terminal_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Statistics_in_MTP_Measurement_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Telephone_User_Part_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Traffic_Measurement_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT7_Trunk_Route_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CCITT_TCAP_User_Policing_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CLUSTER_CP_NOT_ACTIVE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COMMAND_LOG_BLOCKED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CP_CLUSTER_RECOVERY_DISABLED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calendar_Function_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Call_Charging_Analysis_ISDN-E"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cell_Data_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cell_in_MSC_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Central_Processor_Measurements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cesium_Clock_Module"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charge_Rate_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charging_Case_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charging_Check_ISDN-E"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charging_Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charging_Statistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circuit_Query_and_Validation_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code_Sender_and_Code_Receiver_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Command_Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Command_Log_on_Disk_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common_Channel_Signalling_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common_Channel_Signalling_Measurements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common_Charging_Output"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common_Components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common_Destination_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Conceptual_Documents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Configuration_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continuity_Check_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Record_Route_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Recording_per_Call_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Database_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination_Dependent_Barring_ISDN-E_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device_Data_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device_Position_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digit_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Group_Switch_Modification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Path_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Subscriber_Switch_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Digital_Transmission_Maintenance_Supervision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direct_File_Output_Backup_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disconnection_Analysis_ISDN-E_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disturbance_Registration_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disturbance_Statistics_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disturbance_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disturbance_Supervision_of_Individual_Devices_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Domain_Name_System_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dynamic_Traffic_Distribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EGEM2_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EMG_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Calls_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergency_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#End-of-Selection_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equal_Access_Carrier_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment_Identity_Register_and_IMEI_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event_Reporting_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exchange_Input_Load_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extension_Module_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#External_Alarms_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FAN_MAGAZINE_DISCONNECTED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fault_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature_List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flexible_Tariff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_AXE_parameters"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_Adjunct_Processor_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_Central_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_Central_and_Regional_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_Central_and_Regional_Software_with_Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_Conversion_of_Data_into_Command_Format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_Regional_Software_with_Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Change_with_DBS_Central_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Changes_Basic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function_Changes_Function_Specific"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functional_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPRS_Equipment_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_AP_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Alarm_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Purpose_Digit_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generic_Access_Manager_Signalling_Terminal_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generic_Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glossary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group_Switch_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HLR_Mobile_User_Part_Signalling_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HLR_Supplementary_Services_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home_Location_Register"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IMSI_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IO_Data_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IO_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IO_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IO_Terminal_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPN_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IPN_MANUALLY_BLOCKED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IP_Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Advice_of_Charge_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Announcement_of_Incoming_Call_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Automatic_Malicious_Call_Tracing_Serv_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_B-Channel_Default_List_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Barring_of_Incoming_Call_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Basic_Service_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Answering_Busy_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Answering_Conditional_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Answering_No_Reply_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Answering_Unconditional_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Completion_to_Busy_Subscriber_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Deflection_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Diversion_Protection_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Forwarding_Busy_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Forwarding_No_Reply_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Call_Forwarding_Unconditional_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Calling_Line_Identification_Presentation_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Calling_Line_Identification_Restriction_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Calling_Name_Identification_Presentation_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Case_Code_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Change_of_Keyword_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Charging_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Closed_User_Group_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Connected_Line_Identification_Presentation_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Connected_Line_Identification_Restriction_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Default_Calling_Number_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_EMG_Subscriber_Property_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_End_User_Number_Conversion_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_End_Users_and_Accesses_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Equal_Access_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Explicit_Call_Transfer_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Fixed_Destination_Call_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Immediate_Call_Itemization_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Immediate_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Interception_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Keypad_Facility_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Malicious_Call_Identification_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Outgoing_Call_Barring_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_PBX_Hunt_Group_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_PBX_Number_Validation_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_PBX_Subscriber_Number_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Primary_Rate_Access_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Reduced_Hunting_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Service_Provision_Characteristics_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Subaddressing_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Subscriber_Number_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Temporary_Barring_of_Outgoing_Call_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_Terminal_Portability_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_User-to-User_Signalling_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN-E_User_Provided_Default_Calling_Number_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN_Subscriber_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN_User_Part_Disturbance_Recording_and_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN_User_Part_Screening_Mask_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN_User_Part_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ISDN_User_Part_Unrecognized_Signalling_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infinite_Command_Log_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_Output_Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Integrated_Subscriber_Tracer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intelligent_Networks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internal_Number_Series_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internet_Transport_Service_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LARGE_RESTART_IS_PENDING"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LATA_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer_1_Digital_Subscriber_Access_Statistics_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer_2_Digital_Subscriber_Access_Statistics_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer_2_Digital_Subscriber_Access_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer_3_Digital_Subscriber_Access_Statistics_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layer_3_Digital_Subscriber_Access_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Log_Handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Long_Duration_Call"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MSC/VLR_Parameters_Characteristics_and_Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MSC_Identity_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTP2_User_Adaptation_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTP3_User_Adaptation_Layer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manual_Page"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measurement_on_Routes_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Media_Gateway_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Midnight_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Services_Switching_Centre_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Subscriber_Administration_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony_Cell_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony_Flexible_Charging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony_General"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony_Location_Area_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony_Location_Number_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony_Location_Services_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile_Telephony_SMS_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NETWORK_SYNCHRONIZATION_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NM_DESTINATION_BLOCKING"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NM_ROUTE_ASR_SUPERVISION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neighboring_MSC_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Impact_Report"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Adaptive_Automatic_Congestion_Control_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Automatic_Congestion_Control_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Circuit_Reservation_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Counter_Data_Output_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Destination_Blocking_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Hard_to_Reach_Destination_List_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Measurement_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Response_Program_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Restriction_of_Accessible_Outgoing_Devices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Restriction_on_Direct_and_Alternative_Routing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Routing_Switch_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Supervision_and_Observation_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Management_Temporary_Alternative_Routing_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Network_Synchronization_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#New_Plant_Generation_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number_Portability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number_Portability_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#O"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#O1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#O2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OMC_Terminal_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observe_Alarm_Printout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open_Communications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operating_Instruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operational_Instruction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outgoing_Trunk_and_Bothway_Trunk_Test_Call"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Overview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PROGRAM_CHANGE_FAULT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PROTOCOL_DISTURBANCE_SUPERVISION"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform_Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Printout_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Printout_Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Printout_Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Printout_on_File_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Private_Subscriber_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedural_Documents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processor_Alarms_APZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processor_Load_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Processor_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program_Corrections"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Q.921-user_Signalling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radio_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Random_Number_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reference_Documents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regional_Processor_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remote_Code_Answer_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roamer_Port_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roaming_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roaming_Restriction_and_Priority_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roaming_and_Handover_Number_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_Blocking_Restriction_Function_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_Data_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_Measurements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_Status_Survey_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Route_and_Device_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Routine_Inspection_and_Maintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Routing_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Routing_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SIP_Signalling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMALL_RESTART_IS_PENDING"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SMS_over_SGs-Interface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_DS0-A_Signalling_Data_Link_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_DS0-A_Signalling_Data_Link_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_Global_Title_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_MTP_Destination_Test_Looping_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_MTP_Network_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_MTP_Routing_Verification_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_SCCP_Inaccessible_Alarm_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_SCCP_Network_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_SCCP_Overhead_Converter_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_SCCP_Routing_Verification_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_STP_Gateway_Message_Screening_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_Signalling_Network_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_Signalling_Terminal_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_TCAP_Load_Management_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SS7_TCAP_Platform_Resource_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SYSTEM_CLOCK_RESET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SYSTEM_EVENT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seizure_Quality_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semipermanent_Connection_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Semipermanent_Connection_User_Failure_Report_Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Charging_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Provision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Quality_Statistics_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Screening_Case_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Switching_Node_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signaling_Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signalling_Fault_Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Single_Radio_Voice_Call_Continuity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistic_Data_File_Output_Report_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistic_Data_Measurement_Database_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistic_Data_Measurements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stream_Control_Transmission_Protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subscriber_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subscriber_Lines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subscriber_Measurements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supervision_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Support_Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switching_Device_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switching_Devices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switching_Network_Terminal_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Synchronous_Digital_Path_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Backup_Copy_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Clock_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_Update"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System_and_Band_Definitions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TIME_ZONE_MISMATCH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tandem_Free_Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tariff_Data"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telecommunication_Service_Analysis_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telephony_Alarms_APT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_Call_via_Group_Number_Line"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_Position_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_Position_Calibrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_Position_Route_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_Position_Tests_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time_Congestion_Measurement_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Character_Measurement_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Control_towards_Announcement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Destination_Data_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Dispersion_Measurement_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Limitation_on_Route_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_Type_Measurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transcoder_Free_Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transit_Traffic_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trunk_Signaling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trunk_Test_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trunks_and_Devices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URC_BLOCKED"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Guide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Guides"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Instructions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#about"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmClass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aboutAlarmWithPrintoutCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAlarmCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAlarmClass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPrintoutCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatesTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatesToOPI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatesToPOD"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedFor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ACCOUNTING_CASE_CALL_SUPERVISION_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ACCOUNTING_CASE_CALL_SUPERVISION_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ALI_RP_OVERLOAD_PROTECTION_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ALI_RP_OVERLOAD_PROTECTION_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANALYSIS_DATA_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANALYSIS_DATA_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AUDIT_LOG_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AUDIT_LOG_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CLUSTER_CP_NOT_ACTIVE_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COMMAND_LOG_BLOCKED_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COMMAND_LOG_BLOCKED_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CP_CLUSTER_RECOVERY_DISABLED_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FAN_MAGAZINE_DISCONNECTED_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FAN_MAGAZINE_DISCONNECTED_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IPN_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IPN_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IPN_MANUALLY_BLOCKED_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NETWORK_SYNCHRONIZATION_FAULT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NETWORK_SYNCHRONIZATION_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NM_DESTINATION_BLOCKING_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NM_ROUTE_ASR_SUPERVISION_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NM_ROUTE_ASR_SUPERVISION_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PROGRAM_CHANGE_FAULT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PROTOCOL_DISTURBANCE_SUPERVISION_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PROTOCOL_DISTURBANCE_SUPERVISION_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SMALL_RESTART_IS_PENDING_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SMALL_RESTART_IS_PENDING_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SYSTEM_CLOCK_RESET_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SYSTEM_CLOCK_RESET_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SYSTEM_EVENT_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SYSTEM_EVENT_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIME_ZONE_MISMATCH_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIME_ZONE_MISMATCH_POD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#URC_BLOCKED_OPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#URC_BLOCKED_POD"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Operational_Instruction"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Document"/>
+            <ObjectUnionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#usedFor"/>
+                    <Class IRI="#Accounting_and_Charging_Management"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#usedFor"/>
+                    <Class IRI="#Configuration_Management"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#usedFor"/>
+                    <Class IRI="#Fault_Management"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#usedFor"/>
+                    <Class IRI="#Performance_Management"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#usedFor"/>
+                    <Class IRI="#Security_Management"/>
+                </ObjectSomeValuesFrom>
+            </ObjectUnionOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Printout_Description"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Document"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#usedFor"/>
+                <Class IRI="#Observe_Alarm_Printout"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#0"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#10"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#11"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#38"/>
+        <Class IRI="#Printout_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#39"/>
+        <Class IRI="#Printout_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#4"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#40"/>
+        <Class IRI="#Printout_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#41"/>
+        <Class IRI="#Printout_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#42"/>
+        <Class IRI="#Printout_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#44"/>
+        <Class IRI="#Printout_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#7"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#8"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#9"/>
+        <Class IRI="#Alarm_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A"/>
+        <Class IRI="#Alarm_Class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A-Number_Analysis_Administration"/>
+        <Class IRI="#Digit_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A1"/>
+        <Class IRI="#A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A2"/>
+        <Class IRI="#A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A3"/>
+        <Class IRI="#A"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACCOUNTING_CASE_CALL_SUPERVISION"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACCOUNTING_CASE_CALL_SUPERVISION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ACCOUNTING_CASE_CALL_SUPERVISION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#40"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALI_RP_OVERLOAD_PROTECTION"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALI_RP_OVERLOAD_PROTECTION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALI_RP_OVERLOAD_PROTECTION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#44"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALLOCATION_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALLOCATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALLOCATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ALLOCATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANALYSIS_DATA_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANALYSIS_DATA_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANALYSIS_DATA_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ANALYSIS_DATA_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#40"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP-_AP_Maintenance"/>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#APZ_Equipment_CP/RP"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_Alarm_Display"/>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#39"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#39"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_File_Administration"/>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AP_System_and_Processes"/>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATM_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#5"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#42"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AUDIT_LOG_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AUDIT_LOG_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AUDIT_LOG_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AUDIT_LOG_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#39"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Access_Barring_Analysis_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Access_Network_V5_Interface_Administration"/>
+        <Class IRI="#ISDN_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Access_Security_Authority_and_Command_Category"/>
+        <Class IRI="#Security_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accounting_Analysis"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accounting_Class_Data"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accounting_Data_Output"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjunct_Processor_Audit_Log_Administration"/>
+        <Class IRI="#Log_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjunct_Processor_Fault_Administration"/>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alarm_Category"/>
+        <Class IRI="#Alarm_Characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alarm_Class"/>
+        <Class IRI="#Alarm_Characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alarm_Interface_Unit_Handling"/>
+        <Class IRI="#IO_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alarm_Reporting_Criteria"/>
+        <Class IRI="#Fault_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alarm_System_Management"/>
+        <Class IRI="#Fault_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Announcements"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Announcer_Route_Administration"/>
+        <Class IRI="#Announcements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application_Information"/>
+        <Class IRI="#Reference_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application_Protocol_Carrier_Link_Administration"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attendance_Status_Modification"/>
+        <Class IRI="#IO_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audit_Function"/>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B-Number_Analysis_Administration"/>
+        <Class IRI="#Digit_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BICC_Signalling"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BSC/RNC_Administration"/>
+        <Class IRI="#Radio_Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Backup_Handling"/>
+        <Class IRI="#IO_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base_Station_Controller_Administration_GSM"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base_Station_Controller_Equipment"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Base_Station_Controller_Features"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Accounting_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Buffer_Pool_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Disturbance_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Event_Reporting_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Global_Title_Routing_Analysis_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_MTP_Accounting_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_MTP_Backwards_Compatibility_Reporting_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_MTP_Policing_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_MTP_Routing_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Multiple_Point_Code_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Remote_Management_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_SCCP_Congestion_Control_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_SCCP_Network_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_SCCP_Policing_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_SCCP_Remote_Subsystem_Supervision_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_SCCP_Rerouting_Definition"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_SEP_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Signalling"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Signalling_Data_Link_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Signalling_Network_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Signalling_Network_Test_Administration"/>
+        <Class IRI="#General_Maintenance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Signalling_Performance_Measurement_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Signalling_Terminal_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Statistics_in_MTP_Measurement_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Telephone_User_Part_Test_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Traffic_Measurement_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT7_Trunk_Route_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CCITT_TCAP_User_Policing_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLUSTER_CP_NOT_ACTIVE"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLUSTER_CP_NOT_ACTIVE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CLUSTER_CP_NOT_ACTIVE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COMMAND_LOG_BLOCKED"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COMMAND_LOG_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COMMAND_LOG_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COMMAND_LOG_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#39"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CP_CLUSTER_RECOVERY_DISABLED"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CP_CLUSTER_RECOVERY_DISABLED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CP_CLUSTER_RECOVERY_DISABLED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calendar_Function_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Call_Charging_Analysis_ISDN-E"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell_Data_Administration"/>
+        <Class IRI="#Radio_Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell_in_MSC_Administration"/>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Central_Processor_Measurements"/>
+        <Class IRI="#Performance_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cesium_Clock_Module"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charge_Rate_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charging"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charging_Case_Administration"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charging_Check_ISDN-E"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charging_Functions"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charging_Statistics"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circuit_Query_and_Validation_Test_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code_Sender_and_Code_Receiver_Test_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Command_Description"/>
+        <Class IRI="#Reference_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Command_Log_on_Disk_Handling"/>
+        <Class IRI="#Log_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Common_Channel_Signalling_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Common_Channel_Signalling_Measurements"/>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Common_Charging_Output"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Common_Components"/>
+        <Class IRI="#System_Update"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Common_Destination_Handling"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Conceptual_Documents"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Configuration_Management"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continuity_Check_Administration"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#41"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Record_Route_Administration"/>
+        <Class IRI="#Dynamic_Traffic_Distribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Recording_per_Call_Administration"/>
+        <Class IRI="#Subscriber_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Database_Management"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#Conceptual_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination_Dependent_Barring_ISDN-E_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device_Data_Administration"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Device_Position_Administration"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digit_Analysis"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Group_Switch_Modification"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Path_Administration"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Subscriber_Switch_Equipment"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Digital_Transmission_Maintenance_Supervision"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direct_File_Output_Backup_Administration"/>
+        <Class IRI="#IO_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disconnection_Analysis_ISDN-E_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disturbance_Registration_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disturbance_Statistics_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disturbance_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disturbance_Supervision_of_Individual_Devices_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Functional_Area"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Task"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domain_Name_System_Administration"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dynamic_Traffic_Distribution"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EGEM2_Handling"/>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EMG_Administration"/>
+        <Class IRI="#Digital_Subscriber_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Calls_Administration"/>
+        <Class IRI="#Radio_Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergency_Handling"/>
+        <Class IRI="#Fault_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#End-of-Selection_Analysis"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equal_Access_Carrier_Analysis_Administration"/>
+        <Class IRI="#Dynamic_Traffic_Distribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment_Identity_Register_and_IMEI_Handling"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event_Reporting_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exchange_Input_Load_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extension_Module_Administration"/>
+        <Class IRI="#APZ_Equipment_CP/RP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#External_Alarms_Administration"/>
+        <Class IRI="#Alarm_System_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAN_MAGAZINE_DISCONNECTED"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAN_MAGAZINE_DISCONNECTED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAN_MAGAZINE_DISCONNECTED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FAN_MAGAZINE_DISCONNECTED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#40"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fault_Management"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feature_List"/>
+        <Class IRI="#Conceptual_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flexible_Tariff"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_AXE_parameters"/>
+        <Class IRI="#Function_Changes_Basic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_Adjunct_Processor_Software"/>
+        <Class IRI="#Function_Changes_Basic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_Central_Software"/>
+        <Class IRI="#Function_Changes_Basic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_Central_and_Regional_Software"/>
+        <Class IRI="#Function_Changes_Basic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_Central_and_Regional_Software_with_Hardware"/>
+        <Class IRI="#Function_Changes_Basic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_Conversion_of_Data_into_Command_Format"/>
+        <Class IRI="#Function_Changes_Function_Specific"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_Regional_Software_with_Hardware"/>
+        <Class IRI="#Function_Changes_Basic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Change_with_DBS_Central_Software"/>
+        <Class IRI="#Function_Changes_Basic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Changes_Basic"/>
+        <Class IRI="#System_Update"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function_Changes_Function_Specific"/>
+        <Class IRI="#System_Update"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPRS_Equipment_Administration"/>
+        <Class IRI="#Base_Station_Controller_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General"/>
+        <Class IRI="#System_Update"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_AP_Administration"/>
+        <Class IRI="#Adjunct_Processor_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Alarm_Administration"/>
+        <Class IRI="#Alarm_System_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Maintenance"/>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Purpose_Digit_Analysis_Administration"/>
+        <Class IRI="#Digit_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Testing"/>
+        <Class IRI="#General_Maintenance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generic_Access_Manager_Signalling_Terminal_Administration"/>
+        <Class IRI="#Private_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generic_Transport"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glossary"/>
+        <Class IRI="#Conceptual_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group_Switch_Equipment"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group_Switch_Maintenance"/>
+        <Class IRI="#Switching_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HLR_Mobile_User_Part_Signalling_Administration"/>
+        <Class IRI="#Home_Location_Register"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HLR_Supplementary_Services_Administration"/>
+        <Class IRI="#Home_Location_Register"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home_Location_Register"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IMSI_Management"/>
+        <Class IRI="#Radio_Network"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IO_Data_Administration"/>
+        <Class IRI="#IO_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IO_Handling"/>
+        <Class IRI="#IO_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IO_Management"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IO_Terminal_Administration"/>
+        <Class IRI="#IO_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_MANUALLY_BLOCKED"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_MANUALLY_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_MANUALLY_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IPN_MANUALLY_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IP_Transport"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Advice_of_Charge_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Announcement_of_Incoming_Call_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Automatic_Malicious_Call_Tracing_Serv_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_B-Channel_Default_List_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Barring_of_Incoming_Call_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Basic_Service_Analysis_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Answering_Busy_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Answering_Conditional_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Answering_No_Reply_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Answering_Unconditional_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Completion_to_Busy_Subscriber_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Deflection_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Diversion_Protection_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Forwarding_Busy_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Forwarding_No_Reply_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Call_Forwarding_Unconditional_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Calling_Line_Identification_Presentation_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Calling_Line_Identification_Restriction_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Calling_Name_Identification_Presentation_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Case_Code_Analysis_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Change_of_Keyword_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Charging_Administration"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Closed_User_Group_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Connected_Line_Identification_Presentation_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Connected_Line_Identification_Restriction_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Default_Calling_Number_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_EMG_Subscriber_Property_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_End_User_Number_Conversion_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_End_Users_and_Accesses_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Equal_Access_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Explicit_Call_Transfer_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Fixed_Destination_Call_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Immediate_Call_Itemization_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Immediate_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Interception_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Keypad_Facility_Analysis_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Malicious_Call_Identification_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Outgoing_Call_Barring_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_PBX_Hunt_Group_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_PBX_Number_Validation_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_PBX_Subscriber_Number_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Primary_Rate_Access_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Reduced_Hunting_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Service_Provision_Characteristics_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Subaddressing_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+        <Class IRI="#Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Subscriber_Number_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Temporary_Barring_of_Outgoing_Call_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_Terminal_Portability_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_User-to-User_Signalling_Service_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN-E_User_Provided_Default_Calling_Number_Administration"/>
+        <Class IRI="#ISDN-E_Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN_Subscriber_Administration"/>
+        <Class IRI="#Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN_User_Part_Disturbance_Recording_and_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN_User_Part_Screening_Mask_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN_User_Part_Test_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ISDN_User_Part_Unrecognized_Signalling_Administration"/>
+        <Class IRI="#CCITT7_Signalling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infinite_Command_Log_Administration"/>
+        <Class IRI="#Log_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input_Output_Equipment"/>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Integrated_Subscriber_Tracer"/>
+        <Class IRI="#Mobile_Subscriber_Administration_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intelligent_Networks"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internal_Number_Series_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internet_Transport_Service_Administration"/>
+        <Class IRI="#IO_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LARGE_RESTART_IS_PENDING"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LARGE_RESTART_IS_PENDING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LARGE_RESTART_IS_PENDING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LARGE_RESTART_IS_PENDING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LATA_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer_1_Digital_Subscriber_Access_Statistics_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer_2_Digital_Subscriber_Access_Statistics_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer_2_Digital_Subscriber_Access_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer_3_Digital_Subscriber_Access_Statistics_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layer_3_Digital_Subscriber_Access_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#List"/>
+        <Class IRI="#Conceptual_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Location_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Log_Handling"/>
+        <Class IRI="#IO_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Long_Duration_Call"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MSC/VLR_Parameters_Characteristics_and_Services"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MSC_Identity_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTP2_User_Adaptation_Layer"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTP3_User_Adaptation_Layer"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manual_Page"/>
+        <Class IRI="#Reference_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measurement_on_Routes_Administration"/>
+        <Class IRI="#Route_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Media_Gateway_Administration"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Midnight_Line"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Access"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Services_Switching_Centre_Administration"/>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Subscriber_Administration_"/>
+        <Class IRI="#Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony_Cell_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony_Flexible_Charging"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony_General"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony_Location_Area_Administration"/>
+        <Class IRI="#Location_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony_Location_Number_Administration"/>
+        <Class IRI="#Location_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony_Location_Services_Administration"/>
+        <Class IRI="#Location_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile_Telephony_SMS_Administration"/>
+        <Class IRI="#Mobile_Subscriber_Administration_"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NETWORK_SYNCHRONIZATION_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NETWORK_SYNCHRONIZATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NETWORK_SYNCHRONIZATION_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#40"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#O1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#44"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_DESTINATION_BLOCKING"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_DESTINATION_BLOCKING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_DESTINATION_BLOCKING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#O1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_DESTINATION_BLOCKING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#44"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ROUTE_ASR_SUPERVISION"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ROUTE_ASR_SUPERVISION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#7"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ROUTE_ASR_SUPERVISION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#O2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NM_ROUTE_ASR_SUPERVISION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#44"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neighboring_MSC_Administration"/>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Impact_Report"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management"/>
+        <Class IRI="#Performance_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Adaptive_Automatic_Congestion_Control_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Automatic_Congestion_Control_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Circuit_Reservation_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Counter_Data_Output_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Destination_Blocking_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Hard_to_Reach_Destination_List_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Measurement_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Response_Program_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Restriction_of_Accessible_Outgoing_Devices"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Restriction_on_Direct_and_Alternative_Routing"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Routing_Switch_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Supervision_and_Observation_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Management_Temporary_Alternative_Routing_Administration"/>
+        <Class IRI="#Network_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Protection"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Network_Synchronization_Administration"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#New_Plant_Generation_Administration"/>
+        <Class IRI="#Backup_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_Portability"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number_Portability_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#O"/>
+        <Class IRI="#Alarm_Class"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#O1"/>
+        <Class IRI="#O"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#O2"/>
+        <Class IRI="#O"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OMC_Terminal_Administration"/>
+        <Class IRI="#IO_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observe_Alarm_Printout"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open_Communications"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operating_Instruction"/>
+        <Class IRI="#Procedural_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operational_Instruction"/>
+        <Class IRI="#Procedural_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Outgoing_Trunk_and_Bothway_Trunk_Test_Call"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overview"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROGRAM_CHANGE_FAULT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROGRAM_CHANGE_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROGRAM_CHANGE_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#O"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROGRAM_CHANGE_FAULT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROTOCOL_DISTURBANCE_SUPERVISION"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROTOCOL_DISTURBANCE_SUPERVISION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#5"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PROTOCOL_DISTURBANCE_SUPERVISION"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#42"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Performance_Management"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platform_Functions"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Printout_Administration"/>
+        <Class IRI="#IO_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Printout_Category"/>
+        <Class IRI="#Alarm_Characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Printout_Description"/>
+        <Class IRI="#Reference_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Printout_on_File_Management"/>
+        <Class IRI="#IO_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Private_Subscriber_Administration"/>
+        <Class IRI="#Subscriber_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedural_Documents"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processor_Alarms_APZ"/>
+        <Class IRI="#Fault_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processor_Load_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Processor_Test"/>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Program_Corrections"/>
+        <Class IRI="#System_Update"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Q.921-user_Signalling"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radio_Network"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Random_Number_Administration"/>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reference_Documents"/>
+        <Class IRI="#Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regional_Processor_Administration"/>
+        <Class IRI="#APZ_Equipment_CP/RP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Remote_Code_Answer_Administration"/>
+        <Class IRI="#General_Maintenance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roamer_Port_Administration"/>
+        <Class IRI="#Roaming_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roaming_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roaming_Restriction_and_Priority_Administration"/>
+        <Class IRI="#Roaming_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roaming_and_Handover_Number_Administration"/>
+        <Class IRI="#Roaming_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Administration"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Blocking_Restriction_Function_Administration"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Data_Administration"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Measurements"/>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_Status_Survey_Administration"/>
+        <Class IRI="#Route_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Route_and_Device_Data"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Routine_Inspection_and_Maintenance"/>
+        <Class IRI="#General_Maintenance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Routing_Analysis"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Routing_Analysis_Administration"/>
+        <Class IRI="#Routing_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#5"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#O2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#42"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SIP_Signalling"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMALL_RESTART_IS_PENDING"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMALL_RESTART_IS_PENDING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMALL_RESTART_IS_PENDING"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SMS_over_SGs-Interface"/>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_DS0-A_Signalling_Data_Link_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_DS0-A_Signalling_Data_Link_Test_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_Global_Title_Analysis_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_MTP_Destination_Test_Looping_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_MTP_Network_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_MTP_Routing_Verification_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_SCCP_Inaccessible_Alarm_Supervision_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_SCCP_Network_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_SCCP_Overhead_Converter_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_SCCP_Routing_Verification_Test_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_STP_Gateway_Message_Screening_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_Signalling_Network_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_Signalling_Terminal_Administration"/>
+        <Class IRI="#Common_Channel_Signalling_System_SS7"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_TCAP_Load_Management_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SS7_TCAP_Platform_Resource_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYSTEM_CLOCK_RESET"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYSTEM_CLOCK_RESET"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYSTEM_CLOCK_RESET"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYSTEM_CLOCK_RESET"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYSTEM_EVENT"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYSTEM_EVENT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SYSTEM_EVENT"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security_Management"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seizure_Quality_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semipermanent_Connection_Administration"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Semipermanent_Connection_User_Failure_Report_Test"/>
+        <Class IRI="#Switching_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service_Charging_Analysis"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service_Provision_Administration"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service_Quality_Statistics_Administration"/>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service_Screening_Case_Analysis_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service_Switching_Node_Administration"/>
+        <Class IRI="#Service_Provision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signaling_Transport"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signalling_Fault_Supervision_Administration"/>
+        <Class IRI="#Supervision_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Single_Radio_Voice_Call_Continuity"/>
+        <Class IRI="#Mobile_Services_Switching_Centre"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistic_Data_File_Output_Report_Administration"/>
+        <Class IRI="#Statistic_Data_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistic_Data_Measurement_Database_Administration"/>
+        <Class IRI="#Statistic_Data_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistic_Data_Measurements"/>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stream_Control_Transmission_Protocol"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subscriber_Administration"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subscriber_Lines"/>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subscriber_Measurements"/>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supervision_Administration"/>
+        <Class IRI="#Traffic_Data_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Support_Functions"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switching_Device_Administration"/>
+        <Class IRI="#General"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switching_Devices"/>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switching_Network_Terminal_Administration"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Synchronous_Digital_Path_Administration"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Backup_Copy_Administration"/>
+        <Class IRI="#Backup_Handling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Clock_Administration"/>
+        <Class IRI="#Group_Switch_Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_Update"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System_and_Band_Definitions"/>
+        <Class IRI="#Base_Station_Controller_Administration_GSM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TIME_ZONE_MISMATCH"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TIME_ZONE_MISMATCH"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TIME_ZONE_MISMATCH"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TIME_ZONE_MISMATCH"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tandem_Free_Operation"/>
+        <Class IRI="#Base_Station_Controller_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tariff_Data"/>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telecommunication_Service_Analysis_Administration"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telephony_Alarms_APT"/>
+        <Class IRI="#Fault_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Call_via_Group_Number_Line"/>
+        <Class IRI="#Subscriber_Lines"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Position_Administration"/>
+        <Class IRI="#General_Maintenance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Position_Calibrate"/>
+        <Class IRI="#General_Maintenance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Position_Route_Administration"/>
+        <Class IRI="#General_Maintenance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Test_Position_Tests_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+        <Class IRI="#Fault_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time_Congestion_Measurement_Administration"/>
+        <Class IRI="#Route_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Character_Measurement_Administration"/>
+        <Class IRI="#Route_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Control_towards_Announcement"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Data_Administration"/>
+        <Class IRI="#Configuration_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Destination_Data_Administration"/>
+        <Class IRI="#Miscellaneous_Traffic_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Dispersion_Measurement_Administration"/>
+        <Class IRI="#Route_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Limitation_on_Route_Administration"/>
+        <Class IRI="#Route_and_Device_Data"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_Type_Measurement"/>
+        <Class IRI="#Route_Measurements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traffic_and_Service_Measurements"/>
+        <Class IRI="#Performance_Management"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transcoder_Free_Operation"/>
+        <Class IRI="#Mobile_Telephony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transit_Traffic_Control"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trunk_Signaling"/>
+        <Class IRI="#Functional_Area"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trunk_Test_Administration"/>
+        <Class IRI="#Trunks_and_Devices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trunks_and_Devices"/>
+        <Class IRI="#Testing_Fault_Localization_and_Repair"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URC_BLOCKED"/>
+        <Class IRI="#Alarm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URC_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+            <Class IRI="#1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URC_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+            <Class IRI="#A"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URC_BLOCKED"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+            <Class IRI="#38"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Guide"/>
+        <Class IRI="#User_Guides"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Guides"/>
+        <Class IRI="#Procedural_Documents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#User_Instructions"/>
+        <Class IRI="#User_Guides"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#0"/>
+        <Class IRI="#1"/>
+        <Class IRI="#10"/>
+        <Class IRI="#11"/>
+        <Class IRI="#2"/>
+        <Class IRI="#3"/>
+        <Class IRI="#4"/>
+        <Class IRI="#5"/>
+        <Class IRI="#6"/>
+        <Class IRI="#7"/>
+        <Class IRI="#8"/>
+        <Class IRI="#9"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#A"/>
+        <Class IRI="#O"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#A1"/>
+        <Class IRI="#A2"/>
+        <Class IRI="#A3"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ACCOUNTING_CASE_CALL_SUPERVISION"/>
+        <Class IRI="#ALI_RP_OVERLOAD_PROTECTION"/>
+        <Class IRI="#ALLOCATION_FAULT"/>
+        <Class IRI="#ANALYSIS_DATA_FAULT"/>
+        <Class IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR"/>
+        <Class IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT"/>
+        <Class IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS"/>
+        <Class IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT"/>
+        <Class IRI="#AUDIT_LOG_FAULT"/>
+        <Class IRI="#CLUSTER_CP_NOT_ACTIVE"/>
+        <Class IRI="#COMMAND_LOG_BLOCKED"/>
+        <Class IRI="#CP_CLUSTER_RECOVERY_DISABLED"/>
+        <Class IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT"/>
+        <Class IRI="#FAN_MAGAZINE_DISCONNECTED"/>
+        <Class IRI="#IPN_FAULT"/>
+        <Class IRI="#IPN_MANUALLY_BLOCKED"/>
+        <Class IRI="#LARGE_RESTART_IS_PENDING"/>
+        <Class IRI="#NETWORK_SYNCHRONIZATION_FAULT"/>
+        <Class IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION"/>
+        <Class IRI="#NM_DESTINATION_BLOCKING"/>
+        <Class IRI="#NM_ROUTE_ASR_SUPERVISION"/>
+        <Class IRI="#PROGRAM_CHANGE_FAULT"/>
+        <Class IRI="#PROTOCOL_DISTURBANCE_SUPERVISION"/>
+        <Class IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE"/>
+        <Class IRI="#SMALL_RESTART_IS_PENDING"/>
+        <Class IRI="#SYSTEM_CLOCK_RESET"/>
+        <Class IRI="#SYSTEM_EVENT"/>
+        <Class IRI="#TIME_ZONE_MISMATCH"/>
+        <Class IRI="#URC_BLOCKED"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Accounting_Analysis"/>
+        <Class IRI="#Accounting_Class_Data"/>
+        <Class IRI="#Accounting_Data_Output"/>
+        <Class IRI="#Call_Charging_Analysis_ISDN-E"/>
+        <Class IRI="#Charging_Case_Administration"/>
+        <Class IRI="#Charging_Check_ISDN-E"/>
+        <Class IRI="#Charging_Functions"/>
+        <Class IRI="#Charging_Statistics"/>
+        <Class IRI="#Common_Charging_Output"/>
+        <Class IRI="#Flexible_Tariff"/>
+        <Class IRI="#ISDN-E_Charging_Administration"/>
+        <Class IRI="#Long_Duration_Call"/>
+        <Class IRI="#Midnight_Line"/>
+        <Class IRI="#Mobile_Telephony_Flexible_Charging"/>
+        <Class IRI="#Service_Charging_Analysis"/>
+        <Class IRI="#Tariff_Data"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Accounting_and_Charging_Management"/>
+        <Class IRI="#Configuration_Management"/>
+        <Class IRI="#Fault_Management"/>
+        <Class IRI="#Observe_Alarm_Printout"/>
+        <Class IRI="#Performance_Management"/>
+        <Class IRI="#Security_Management"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alarm"/>
+        <Class IRI="#Alarm_Characteristics"/>
+        <Class IRI="#Document"/>
+        <Class IRI="#Functional_Area"/>
+        <Class IRI="#Task"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alarm_Category"/>
+        <Class IRI="#Alarm_Class"/>
+        <Class IRI="#Printout_Category"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Charging"/>
+        <Class IRI="#Mobile_Access"/>
+        <Class IRI="#Platform_Functions"/>
+        <Class IRI="#Signaling_Transport"/>
+        <Class IRI="#Support_Functions"/>
+        <Class IRI="#Transit_Traffic_Control"/>
+        <Class IRI="#Trunk_Signaling"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#O1"/>
+        <Class IRI="#O2"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Procedural_Documents"/>
+        <Class IRI="#Reference_Documents"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#ACCOUNTING_CASE_CALL_SUPERVISION"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ACCOUNTING_CASE_CALL_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Charging"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ACCOUNTING_CASE_CALL_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ACCOUNTING_CASE_CALL_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#ALI_RP_OVERLOAD_PROTECTION"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ALI_RP_OVERLOAD_PROTECTION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Signaling_Transport"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ALI_RP_OVERLOAD_PROTECTION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ALI_RP_OVERLOAD_PROTECTION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Document"/>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#ALLOCATION_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#ANALYSIS_DATA_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ANALYSIS_DATA_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Mobile_Access"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ANALYSIS_DATA_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ANALYSIS_DATA_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AP_FUNCTION_CHANGE_IN_PROGRESS_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Signaling_Transport"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#AUDIT_LOG_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AUDIT_LOG_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AUDIT_LOG_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#AUDIT_LOG_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#CLUSTER_CP_NOT_ACTIVE"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CLUSTER_CP_NOT_ACTIVE_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CLUSTER_CP_NOT_ACTIVE_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CLUSTER_CP_NOT_ACTIVE_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#COMMAND_LOG_BLOCKED"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#COMMAND_LOG_BLOCKED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#COMMAND_LOG_BLOCKED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#COMMAND_LOG_BLOCKED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#CP_CLUSTER_RECOVERY_DISABLED"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CP_CLUSTER_RECOVERY_DISABLED_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CP_CLUSTER_RECOVERY_DISABLED_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#CP_CLUSTER_RECOVERY_DISABLED_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Signaling_Transport"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#FAN_MAGAZINE_DISCONNECTED"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#FAN_MAGAZINE_DISCONNECTED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Support_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#FAN_MAGAZINE_DISCONNECTED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#FAN_MAGAZINE_DISCONNECTED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#IPN_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#IPN_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#IPN_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#IPN_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#IPN_MANUALLY_BLOCKED"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#IPN_MANUALLY_BLOCKED_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#IPN_MANUALLY_BLOCKED_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#IPN_MANUALLY_BLOCKED_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Document"/>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#LARGE_RESTART_IS_PENDING"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#NETWORK_SYNCHRONIZATION_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NETWORK_SYNCHRONIZATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Support_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NETWORK_SYNCHRONIZATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NETWORK_SYNCHRONIZATION_FAULT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Support_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_ALL_CIRCUITS_BUSY_OBSERVATION_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#NM_DESTINATION_BLOCKING"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_DESTINATION_BLOCKING_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Support_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_DESTINATION_BLOCKING_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_DESTINATION_BLOCKING_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#NM_ROUTE_ASR_SUPERVISION"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_ROUTE_ASR_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Support_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_ROUTE_ASR_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#NM_ROUTE_ASR_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#PROGRAM_CHANGE_FAULT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PROGRAM_CHANGE_FAULT_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PROGRAM_CHANGE_FAULT_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PROGRAM_CHANGE_FAULT_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#PROTOCOL_DISTURBANCE_SUPERVISION"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PROTOCOL_DISTURBANCE_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Trunk_Signaling"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PROTOCOL_DISTURBANCE_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Telephony_Alarms_APT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#PROTOCOL_DISTURBANCE_SUPERVISION_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Signaling_Transport"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Observe_Alarm_Printout"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SCTP_ON_CP_NETWORK_STATUS_CHANGE_POD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#SMALL_RESTART_IS_PENDING"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SMALL_RESTART_IS_PENDING_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SMALL_RESTART_IS_PENDING_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SMALL_RESTART_IS_PENDING_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#SYSTEM_CLOCK_RESET"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SYSTEM_CLOCK_RESET_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SYSTEM_CLOCK_RESET_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SYSTEM_CLOCK_RESET_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#SYSTEM_EVENT"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SYSTEM_EVENT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SYSTEM_EVENT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#SYSTEM_EVENT_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#TIME_ZONE_MISMATCH"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#TIME_ZONE_MISMATCH_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#TIME_ZONE_MISMATCH_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#TIME_ZONE_MISMATCH_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#about"/>
+            <Class IRI="#URC_BLOCKED"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#URC_BLOCKED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#relatesTo"/>
+            <Class IRI="#Platform_Functions"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#URC_BLOCKED_OPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usedFor"/>
+            <Class IRI="#Processor_Alarms_APZ"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#URC_BLOCKED_OPI"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToOPI"/>
+        <NamedIndividual IRI="#ACCOUNTING_CASE_CALL_SUPERVISION_POD"/>
+        <NamedIndividual IRI="#ACCOUNTING_CASE_CALL_SUPERVISION_OPI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#ALI_RP_OVERLOAD_PROTECTION_OPI"/>
+        <NamedIndividual IRI="#ALI_RP_OVERLOAD_PROTECTION_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToOPI"/>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_POD"/>
+        <NamedIndividual IRI="#ALLOCATION_FAULT_OPI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#ANALYSIS_DATA_FAULT_OPI"/>
+        <NamedIndividual IRI="#ANALYSIS_DATA_FAULT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR_OPI"/>
+        <NamedIndividual IRI="#APPLICATION_DETECTED_SOFTWARE_ERROR_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT_OPI"/>
+        <NamedIndividual IRI="#AP_CP_CLUSTER_COMMUNICATION_FAULT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_OPI"/>
+        <NamedIndividual IRI="#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#AUDIT_LOG_FAULT_OPI"/>
+        <NamedIndividual IRI="#AUDIT_LOG_FAULT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#COMMAND_LOG_BLOCKED_OPI"/>
+        <NamedIndividual IRI="#COMMAND_LOG_BLOCKED_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT_OPI"/>
+        <NamedIndividual IRI="#DISTRIBUTED_GROUP_SWITCH_FAULT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#FAN_MAGAZINE_DISCONNECTED_OPI"/>
+        <NamedIndividual IRI="#FAN_MAGAZINE_DISCONNECTED_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#IPN_FAULT_OPI"/>
+        <NamedIndividual IRI="#IPN_FAULT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_OPI"/>
+        <NamedIndividual IRI="#LARGE_RESTART_IS_PENDING_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#NETWORK_SYNCHRONIZATION_FAULT_OPI"/>
+        <NamedIndividual IRI="#NETWORK_SYNCHRONIZATION_FAULT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#NM_ROUTE_ASR_SUPERVISION_OPI"/>
+        <NamedIndividual IRI="#NM_ROUTE_ASR_SUPERVISION_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#PROTOCOL_DISTURBANCE_SUPERVISION_OPI"/>
+        <NamedIndividual IRI="#PROTOCOL_DISTURBANCE_SUPERVISION_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#SMALL_RESTART_IS_PENDING_OPI"/>
+        <NamedIndividual IRI="#SMALL_RESTART_IS_PENDING_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#SYSTEM_CLOCK_RESET_OPI"/>
+        <NamedIndividual IRI="#SYSTEM_CLOCK_RESET_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#SYSTEM_EVENT_OPI"/>
+        <NamedIndividual IRI="#SYSTEM_EVENT_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#TIME_ZONE_MISMATCH_OPI"/>
+        <NamedIndividual IRI="#TIME_ZONE_MISMATCH_POD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <NamedIndividual IRI="#URC_BLOCKED_OPI"/>
+        <NamedIndividual IRI="#URC_BLOCKED_POD"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAlarmCategory"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPrintoutCategory"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#relatesToPOD"/>
+        <ObjectProperty IRI="#relatesToOPI"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#about"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmCategory"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmClass"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aboutAlarmWithPrintoutCategory"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAlarmCategory"/>
+        <Class IRI="#Alarm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAlarmClass"/>
+        <Class IRI="#Alarm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPrintoutCategory"/>
+        <Class IRI="#Alarm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatesTo"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatesToOPI"/>
+        <Class IRI="#Printout_Description"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usedFor"/>
+        <Class IRI="#Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#about"/>
+        <Class IRI="#Alarm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmCategory"/>
+        <Class IRI="#Alarm_Category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmClass"/>
+        <Class IRI="#Alarm_Class"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aboutAlarmWithPrintoutCategory"/>
+        <Class IRI="#Printout_Category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAlarmCategory"/>
+        <Class IRI="#Alarm_Category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAlarmClass"/>
+        <Class IRI="#Alarm_Class"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPrintoutCategory"/>
+        <Class IRI="#Printout_Category"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatesTo"/>
+        <Class IRI="#Functional_Area"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatesToOPI"/>
+        <Class IRI="#Operational_Instruction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usedFor"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#about"/>
+            <ObjectProperty IRI="#hasAlarmCategory"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmCategory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#about"/>
+            <ObjectProperty IRI="#hasAlarmClass"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#aboutAlarmWithAlarmClass"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#about"/>
+            <ObjectProperty IRI="#hasPrintoutCategory"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#aboutAlarmWithPrintoutCategory"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#relatesToOPI"/>
+            <ObjectProperty IRI="#about"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#relatesToOPI"/>
+            <ObjectProperty IRI="#relatesTo"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#relatesTo"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#relatesToPOD"/>
+            <ObjectProperty IRI="#about"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#about"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#relatesToPOD"/>
+            <ObjectProperty IRI="#relatesTo"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#relatesTo"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ACCOUNTING_CASE_CALL_SUPERVISION_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ACCOUNTING_CASE_CALL_SUPERVISION_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ACCOUNTING_CASE_CALL_SUPERVISION_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ACCOUNTING_CASE_CALL_SUPERVISION_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ALI_RP_OVERLOAD_PROTECTION_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ALI_RP_OVERLOAD_PROTECTION_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ALI_RP_OVERLOAD_PROTECTION_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ALI_RP_OVERLOAD_PROTECTION_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ALLOCATION_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ALLOCATION_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ALLOCATION_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ALLOCATION_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ANALYSIS_DATA_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ANALYSIS_DATA_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ANALYSIS_DATA_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ANALYSIS_DATA_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#APPLICATION_DETECTED_SOFTWARE_ERROR_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/APPLICATION_DETECTED_SOFTWARE_ERROR_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#APPLICATION_DETECTED_SOFTWARE_ERROR_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/APPLICATION_DETECTED_SOFTWARE_ERROR_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AP_CP_CLUSTER_COMMUNICATION_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/AP_CP_CLUSTER_COMMUNICATION_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AP_CP_CLUSTER_COMMUNICATION_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/AP_CP_CLUSTER_COMMUNICATION_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AP_FUNCTION_CHANGE_IN_PROGRESS_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/AP_FUNCTION_CHANGE_IN_PROGRESS_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ATM_PORT_LOSS_OF_CONTINUITY_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ATM_PORT_LOSS_OF_CONTINUITY_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/ATM_PORT_LOSS_OF_CONTINUITY_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AUDIT_LOG_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/AUDIT_LOG_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AUDIT_LOG_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/AUDIT_LOG_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CLUSTER_CP_NOT_ACTIVE_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/CLUSTER_CP_NOT_ACTIVE_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#COMMAND_LOG_BLOCKED_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/COMMAND_LOG_BLOCKED_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#COMMAND_LOG_BLOCKED_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/COMMAND_LOG_BLOCKED_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CP_CLUSTER_RECOVERY_DISABLED_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/CP_CLUSTER_RECOVERY_DISABLED_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DISTRIBUTED_GROUP_SWITCH_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/DISTRIBUTED_GROUP_SWITCH_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DISTRIBUTED_GROUP_SWITCH_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/DISTRIBUTED_GROUP_SWITCH_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FAN_MAGAZINE_DISCONNECTED_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/FAN_MAGAZINE_DISCONNECTED_OPI_files/alexserv.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FAN_MAGAZINE_DISCONNECTED_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/FAN_MAGAZINE_DISCONNECTED_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IPN_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/IPN_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IPN_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/IPN_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#IPN_MANUALLY_BLOCKED_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/IPN_MANUALLY_BLOCKED_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LARGE_RESTART_IS_PENDING_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/LARGE_RESTART_IS_PENDING_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LARGE_RESTART_IS_PENDING_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/LARGE_RESTART_IS_PENDING_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NETWORK_SYNCHRONIZATION_FAULT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/NETWORK_SYNCHRONIZATION_FAULT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NETWORK_SYNCHRONIZATION_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/NETWORK_SYNCHRONIZATION_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NM_ALL_CIRCUITS_BUSY_OBSERVATION_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/NM_ALL_CIRCUITS_BUSY_OBSERVATION_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NM_DESTINATION_BLOCKING_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/NM_DESTINATION_BLOCKING_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NM_ROUTE_ASR_SUPERVISION_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/NM_ROUTE_ASR_SUPERVISION_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NM_ROUTE_ASR_SUPERVISION_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/NM_ROUTE_ASR_SUPERVISION_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PROGRAM_CHANGE_FAULT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/PROGRAM_CHANGE_FAULT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PROTOCOL_DISTURBANCE_SUPERVISION_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/PROTOCOL_DISTURBANCE_SUPERVISION_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PROTOCOL_DISTURBANCE_SUPERVISION_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/PROTOCOL_DISTURBANCE_SUPERVISION_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SCTP_ON_CP_NETWORK_STATUS_CHANGE_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/SCTP_ON_CP_NETWORK_STATUS_CHANGE_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SMALL_RESTART_IS_PENDING_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/SMALL_RESTART_IS_PENDING_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SMALL_RESTART_IS_PENDING_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/SMALL_RESTART_IS_PENDING_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SYSTEM_CLOCK_RESET_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/SYSTEM_CLOCK_RESET_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SYSTEM_CLOCK_RESET_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/SYSTEM_CLOCK_RESET_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SYSTEM_EVENT_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/SYSTEM_EVENT_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SYSTEM_EVENT_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/SYSTEM_EVENT_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TIME_ZONE_MISMATCH_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/TIME_ZONE_MISMATCH_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TIME_ZONE_MISMATCH_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/TIME_ZONE_MISMATCH_POD.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#URC_BLOCKED_OPI</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/URC_BLOCKED_OPI.htm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#URC_BLOCKED_POD</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Technical_Documents/URC_BLOCKED_POD.htm</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
